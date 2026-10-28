@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rocket Tech: sites, landing pages, lojas virtuais, sistemas e automações sob medida para empresas." />
+  <meta name="theme-color" content="#070b14" />
+  <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
+  <title>Rocket Tech | Sites, sistemas e automações para o seu negócio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Open+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="glow" id="glow" aria-hidden="true"></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="rtg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7a3d"/><stop offset="1" stop-color="#ffc24d"/></linearGradient>
+      <symbol id="rt-mark" viewBox="0 0 64 64">
+<polygon points="32,3 58,18 58,46 32,61 6,46 6,18" fill="rgba(255,122,61,.08)" stroke="url(#rtg)" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="32" cy="33" rx="25" ry="8.5" transform="rotate(-28 32 33)" fill="none" stroke="url(#rtg)" stroke-width="1.3" stroke-dasharray="2 4" stroke-linecap="round"/>
+<path d="M32 11 C38.5 19 40.5 29 38.6 39 L25.4 39 C23.5 29 25.5 19 32 11 Z" fill="url(#rtg)"/>
+<path d="M25.6 34 L18.5 45 L26 42.5 Z" fill="url(#rtg)"/>
+<path d="M38.4 34 L45.5 45 L38 42.5 Z" fill="url(#rtg)"/>
+<circle cx="32" cy="25" r="3.2" fill="#070b14" stroke="#ffe3c2" stroke-width="1"/>
+<path class="rt-flame" d="M28.8 41.5 L32 54 L35.2 41.5 Z" fill="#ffc24d" opacity=".95"/>
+<circle cx="32" cy="3" r="1.9" fill="#ffc24d"/><circle cx="58" cy="18" r="1.9" fill="#ffc24d"/><circle cx="6" cy="46" r="1.9" fill="#ffc24d"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="brand" href="#topo" aria-label="Rocket Tech">
+    <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#rt-mark"></use></svg>
+    <span class="brand-text">ROCKET <span>TECH</span></span>
+  </a>
+
+  <nav class="dock" aria-label="Principal">
+    <ul id="dock-list">
+      <span class="dock-pill" aria-hidden="true"></span>
+      <li><a href="#topo" data-target="topo">Início</a></li>
+      <li><a href="#servicos" data-target="servicos">Serviços</a></li>
+      <li><a href="#processo" data-target="processo">Processo</a></li>
+      <li><a href="#projetos" data-target="projetos">Projetos</a></li>
+      <li><a href="#contato" data-target="contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main id="conteudo">
+
+    <section class="wrap hero" id="topo">
+      <div>
+        <h1>Seu negócio pronto para <em>decolar</em> no digital.</h1>
+        <p class="lead">A Rocket Tech cria sites, lojas virtuais, sistemas e automações feitos para o seu objetivo, do planejamento à publicação.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contato">Pedir orçamento</a>
+          <a class="btn btn-ghost" href="#projetos">Ver projetos</a>
+        </div>
+        <ul class="hero-tags">
+          <li>Sites</li><li>Lojas virtuais</li><li>Sistemas</li><li>Automações</li>
+        </ul>
+      </div>
+
+      <div class="hud" aria-hidden="true"><div class="term">
+        <div class="term-bar"><i></i><i></i><i></i><span>rocket-tech</span></div>
+<pre><span class="dim">$</span> rocket novo-projeto
+<span class="ok">✔</span> briefing recebido
+<span class="ok">✔</span> layout aprovado
+<span class="ok">✔</span> versão para celular pronta
+<span class="ok">✔</span> integração com WhatsApp
+<span class="hl">➜</span> publicando no ar...
+<span class="ok">✔</span> <span class="hl">no ar!</span> <span class="cur"></span></pre>
+      </div></div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Uma solução que faz sentido para o seu negócio.</h2>
+          <p>Cada projeto parte do seu objetivo, do seu público e da sua rotina. Você pode contratar um serviço isolado ou combinar vários.</p>
+        </div>
+
+        <ul class="services">
+          <li class="service"><i class="fa-solid fa-globe" aria-hidden="true"></i><h3>Sites profissionais</h3><p>Apresente sua empresa com clareza e transforme visitas em contatos.</p></li>
+          <li class="service"><i class="fa-solid fa-bullseye" aria-hidden="true"></i><h3>Landing pages</h3><p>Páginas diretas para campanhas, lançamentos e ofertas específicas.</p></li>
+          <li class="service"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i><h3>Lojas virtuais</h3><p>Vitrine organizada e jornada de compra simples para vender online.</p></li>
+          <li class="service"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i><h3>Sistemas sob medida</h3><p>Controle cadastros, relatórios e processos que planilhas não resolvem mais.</p></li>
+          <li class="service"><i class="fa-solid fa-bolt" aria-hidden="true"></i><h3>Automações</h3><p>Elimine tarefas repetitivas e ganhe tempo para a equipe.</p></li>
+          <li class="service"><i class="fa-solid fa-plug" aria-hidden="true"></i><h3>Integrações</h3><p>Conecte formulários, APIs e ferramentas que hoje trabalham separadas.</p></li>
+          <li class="service"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><h3>Tráfego pago</h3><p>Campanhas que levam a oferta certa para quem tem interesse.</p></li>
+          <li class="service"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i><h3>Redes sociais</h3><p>Conteúdo e planejamento para manter sua marca ativa e próxima do público.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><h2>Por que a Rocket Tech?</h2></div>
+        <div class="why">
+          <article><h3>Visual que ajuda a vender</h3><p>O design organiza a mensagem, passa confiança e leva o visitante para o próximo passo.</p></article>
+          <article><h3>Feito do zero para você</h3><p>Nada de template genérico: as páginas e funções são pensadas para o seu caso.</p></article>
+          <article><h3>Do início ao fim</h3><p>Planejamento, design, desenvolvimento, ajustes e publicação com o mesmo time.</p></article>
+          <article><h3>Pensado para o celular</h3><p>Leitura, botões e velocidade cuidados para quem chega pelo smartphone.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="processo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Do primeiro contato ao site no ar.</h2>
+          <p>Um caminho simples, com cada etapa combinada com você.</p>
+        </div>
+        <ol class="steps">
+          <li class="step"><h3>Conversa</h3><p>Entendemos seu negócio, seu público e o que você quer resolver.</p></li>
+          <li class="step"><h3>Planejamento</h3><p>Definimos estrutura, conteúdo e funções antes de começar.</p></li>
+          <li class="step"><h3>Criação</h3><p>Desenvolvemos, testamos no celular e no computador e ajustamos com você.</p></li>
+          <li class="step"><h3>Publicação</h3><p>Colocamos no ar e deixamos você a par de como pedir suporte.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Projetos no ar.</h2>
+          <p>Alguns trabalhos já publicados.</p>
+        </div>
+        <ul class="projects">
+          <li class="project">
+            <div>
+              <h3>Mecha Produções</h3>
+              <p>Site empresarial com galeria de trabalhos em abas (fotos e vídeos), carrossel, menu fixo e seção de clientes.</p>
+              <ul class="tags"><li>Site institucional</li><li>WordPress</li></ul>
+            </div>
+            <a class="btn btn-ghost" href="https://mechaproducoes.com.br" target="_blank" rel="noopener">Ver projeto</a>
+          </li>
+          <li class="project">
+            <div>
+              <h3>Rota da Fluência</h3>
+              <p>Landing page de vendas para um curso de inglês, responsiva e voltada à conversão.</p>
+              <ul class="tags"><li>Landing page</li><li>HTML e CSS</li></ul>
+            </div>
+            <a class="btn btn-ghost" href="https://projeto-rota-fluencia.vercel.app" target="_blank" rel="noopener">Ver projeto</a>
+          </li>
+          <li class="project">
+            <div>
+              <h3>Meus Investimentos</h3>
+              <p>Dashboard para acompanhar investimentos, instalável como aplicativo (PWA).</p>
+              <ul class="tags"><li>Sistema</li><li>React</li></ul>
+            </div>
+            <a class="btn btn-ghost" href="https://dashboardinvest.vercel.app" target="_blank" rel="noopener">Ver projeto</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head"><h2>Dúvidas frequentes</h2></div>
+        <div class="faq">
+          <details><summary>Quanto custa um site?</summary><p>Depende do número de páginas, do conteúdo e das funções. Depois de entender o que você precisa, enviamos um orçamento personalizado.</p></details>
+          <details><summary>Quanto tempo leva para ficar pronto?</summary><p>O prazo varia conforme o escopo e é combinado antes de começarmos.</p></details>
+          <details><summary>Vocês cuidam da publicação?</summary><p>Sim. Configuramos e colocamos o projeto no ar.</p></details>
+          <details><summary>O site funciona bem no celular?</summary><p>Sim. Todos os projetos são feitos para se adaptar a telas de qualquer tamanho.</p></details>
+          <details><summary>Vocês dão suporte depois?</summary><p>Podemos combinar suporte e evoluções conforme a sua necessidade.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <h2>Conte sua ideia e peça um orçamento.</h2>
+            <p>Preencha ao lado e a sua mensagem chega direto no nosso e-mail. Respondemos em breve, sem compromisso.</p>
+            <a class="wa-alt" id="wa-alt" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Prefere falar no WhatsApp?</a>
+          </div>
+          <form id="form" novalidate>
+            <label>Seu nome<input type="text" id="nome" name="name" required autocomplete="name" /></label>
+            <label>Seu e-mail<input type="email" id="email" name="email" required autocomplete="email" /></label>
+            <label>O que você precisa?
+              <select id="tipo" name="tipo">
+                <option>Site profissional</option>
+                <option>Landing page</option>
+                <option>Loja virtual</option>
+                <option>Sistema personalizado</option>
+                <option>Automação ou integração</option>
+                <option>Tráfego pago ou redes sociais</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label>Conte um pouco sobre o projeto<textarea id="msg" name="message" required></textarea></label>
+            <input type="checkbox" id="botcheck" tabindex="-1" autocomplete="off" style="display:none" />
+            <button class="btn btn-primary" id="enviar" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Enviar mensagem</button>
+            <p class="form-status" id="status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="foot-brand" href="#topo" aria-label="Rocket Tech"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#rt-mark"></use></svg><span>ROCKET <span>TECH</span></span></a>
+      <p>© 2026 Rocket Tech. Todos os direitos reservados.</p>
+      <p>Sites, sistemas e automações sob medida.</p>
+    </div>
+  </footer>
+
+  <button class="a11y-btn lang-btn" id="lang-btn" type="button" aria-expanded="false" aria-controls="lang-panel" aria-label="Mudar idioma">
+    <i class="fa-solid fa-language" aria-hidden="true"></i><span class="lang-code" id="lang-code" aria-hidden="true">PT</span>
+  </button>
+  <div class="a11y-panel lang-panel" id="lang-panel" role="dialog" aria-label="Mudar idioma" hidden>
+    <h2>Mudar idioma</h2>
+    <button type="button" data-lang="pt" lang="pt-BR" aria-pressed="true">Português</button>
+    <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
+    <button type="button" data-lang="es" lang="es" aria-pressed="false">Español</button>
+  </div>
+  <button class="a11y-btn" id="a11y-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" aria-label="Abrir opções de acessibilidade">
+    <i class="fa-solid fa-universal-access" aria-hidden="true"></i>
+  </button>
+  <div class="a11y-panel" id="a11y-panel" role="dialog" aria-label="Opções de acessibilidade" hidden>
+    <h2>Acessibilidade</h2>
+    <div class="a11y-row">
+      <span id="size-label">Tamanho do texto</span>
+      <div class="a11y-size" role="group" aria-labelledby="size-label">
+        <button type="button" data-a="text-down" aria-label="Diminuir texto">A−</button>
+        <output id="size-out" aria-live="polite">100%</output>
+        <button type="button" data-a="text-up" aria-label="Aumentar texto">A+</button>
+      </div>
+    </div>
+    <button type="button" data-a="contrast" aria-pressed="false">Alto contraste</button>
+    <button type="button" data-a="readable" aria-pressed="false">Fonte mais legível</button>
+    <button type="button" data-a="links" aria-pressed="false">Sublinhar links</button>
+    <button type="button" data-a="reduce" aria-pressed="false">Reduzir animações</button>
+    <button type="button" class="a11y-reset" data-a="reset">Restaurar padrão</button>
+  </div>
+
+  <script src="./function.js"></script>
+
+</body>
+
+</html>
